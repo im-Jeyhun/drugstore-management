@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace drugstoreManagement
+namespace drugstoreManagement.UI
 {
     internal class Program
     {
