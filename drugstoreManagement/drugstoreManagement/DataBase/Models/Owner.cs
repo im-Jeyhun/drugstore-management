@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace drugstoreManagement.DataBase.Models
 {
-    internal class Owner
+    public class Owner : User
     {
+        public Owner(string name , string surName , string Finn):base(name,surName,Finn)
+        {
+
+        }
     }
 }
