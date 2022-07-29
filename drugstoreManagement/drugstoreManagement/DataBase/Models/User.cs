@@ -1,4 +1,5 @@
-﻿using System;
+﻿using drugstoreManagement.DataBase.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,6 +22,7 @@ namespace drugstoreManagement.DataBase.Models
             Name = name;
             Surname = surname;
             Finn = finn;
+            Id = UserRepository.IdCounter;
         }
     }
 }
